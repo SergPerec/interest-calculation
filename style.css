@@ -1,0 +1,43 @@
+@import 'reset';
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  background-color: #6a6270;
+  font-size: 30px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.inputPrice__inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resetInput{
+  width: 150px;
+  height: 50px;
+  margin-left: 15px;
+  border: none;
+  padding: 0;
+}
+
+#inputPrice{
+  background-color: gray;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+}
