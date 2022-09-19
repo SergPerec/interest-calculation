@@ -26,15 +26,15 @@ body{
 }
 
 .resetInput{
+  background-color: #8ba78d;
   width: 150px;
   height: 50px;
-  margin-left: 15px;
   border: none;
   padding: 0;
 }
 
 #inputPrice{
-  background-color: #2196f3;
+  background-color: #899eaf;
   padding: 10px;
   width: 200px;
   height: 50px;
